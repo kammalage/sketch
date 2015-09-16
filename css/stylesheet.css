@@ -48,15 +48,27 @@ table {
 	border-spacing: 0;
 }
 
+form {
+    margin-top:50px;
+    margin-right:100px;
+
+}
+
+input {
+
+    float: right;
+}
+
 .container {
     border:none;
-    margin:50px 0 0 50px;
+    margin:50px 100px 0 0px;
+    float:right;
     width:100%;
     height:100%;
 }
 
 .row {
-    float:left;
+    float:right;
 }
 
 .break {
@@ -67,6 +79,16 @@ table {
     padding:0;
     width:0;
     height:0;
+}
+
+.gridcell {
+
+
+}
+
+.highlight {
+
+    background-color:maroon;
 }
 
 div {
